@@ -1,0 +1,10 @@
+.host-game {
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}

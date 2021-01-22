@@ -1,0 +1,37 @@
+.quiz-details {
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+
+  .form {
+    .footer {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  .quiz-name {
+    .input-wrapper {
+      border: none !important;
+      input {
+        font-size: 48px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .play-button,
+  .save-button {
+    margin-right: 5px;
+  }
+
+  .add {
+    display: flex;
+    cursor: pointer;
+
+    .content {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

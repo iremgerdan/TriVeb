@@ -1,0 +1,21 @@
+.host-home {
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .quiz {
+    cursor: pointer;
+  }
+
+  .quizContent {
+    display: flex;
+    justify-content: space-between;
+  }
+}
